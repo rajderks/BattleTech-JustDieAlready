@@ -1,0 +1,14 @@
+﻿Error - MessageCenter[ERROR] CRITICAL ERROR, PLEASE REPORT:
+Delegate OnAttackSequenceImpact - Standard for message type OnAttackSequenceImpact failed with exception
+Object reference not set to an instance of an object
+at BattleTech.StatisticEffect.OnEffectEnd(bool, bool) <0x00063>
+at BattleTech.Effect.OnEffectRemoval(bool) <0x00026>
+at BattleTech.StatisticEffect.OnEffectRemoval(bool) <0x00024>
+at BattleTech.EffectManager.CancelEffect(BattleTech.Effect, bool) <0x00053>
+at BattleTech.AbstractActor.CancelEffect(BattleTech.Effect, bool) <0x00044>
+at BattleTech.MechComponent.CancelCreatedEffects() <0x000ce>
+at BattleTech.Mech.CancelEffectsOnDeath() <0x0005e>
+at BattleTech.AbstractActor.HandleDeath(string) <0x0017a>
+at BattleTech.Mech.HandleDeath(string) <0x0004a>
+at(wrapper dynamic-method) BattleTech.AttackDirector/AttackSequence.OnAttackSequenceImpact_Patch2(object, MessageCenterMessage) <0x0202c>
+at MessageCenter.SendMessagesForType(MessageCenterMessageType, MessageCenterMessage) <0x00186>
