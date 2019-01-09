@@ -1,4 +1,4 @@
-# BT: TotalCameraControl
+# BT: JustDieAlready
 Sometimes a mech won't die even though it's center torso is 0/xxx, the pilot ejected or got killed.   
 This would softlock the game as objectives never got completed and would forego death-animations.   
 This patch fixes the softlocking and thus objectives can be completed, mechs will actually die and death-animations will run.   
