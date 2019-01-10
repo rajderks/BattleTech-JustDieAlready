@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cause.txt" />
+    <Content Include="README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
